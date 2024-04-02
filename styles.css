@@ -1,0 +1,116 @@
+/*Nabin Singh Dhami
+200565570
+*/
+<!DOCTYPE html>
+<html>
+<head>
+    <title>|Exit Interview| : Hunter Harrison | Report On Business</title>
+   
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        main {
+            margin-top: 20px;
+            padding: 0 20px;
+            column-count: 2; /* Setting the number of columns */
+            column-gap: 20px; /* Setting the gap between columns */
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        article {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+        }
+
+        footer p {
+            font-size: 12px;
+            margin: 0;
+        }
+
+        footer small {
+            font-style: italic;
+        }
+
+        footer small em {
+            font-style: normal;
+        }
+
+        footer small time {
+            font-style: normal;
+            color: #ccc;
+        }
+
+        /* Adding orange color to specific words */
+        header h1 .orange {
+            color: orange;
+        }
+
+        article p .orange {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1><span class="orange">Exit Interview</span></h1>
+    </header>
+    <main>
+        <img src="n.jpg" alt="n.jpg">
+        <article>
+            <h2>The Road Well Travelled</h2>
+            <p><strong><span class="orange">Hunter Harrison</span></strong> started out in the railway business as a teenaged labourer in Memphis, and rose to the top of the industry, serving as CEO of Canadian National Railway Co. for the past seven years. Now, the straight-talking 65-year old is bowing out of the company that he pushed to big efficiency gains, and where he often clashed with unions, most recently with locomotive engineers this past fall. With <abbr title="Canadian National">CN</abbr> executive vice-president Claude Mongeau set to succeed him on Jan. 1, Harrison talked about his career and where he’s headed.</p>
+            <!-- Other paragraphs omitted for brevity -->
+        </article>
+    </main>
+    <footer>
+        <p><small><em>64</em> <time datetime="2010-01">January 2010</time> Report On Business</small></p>
+    </footer>
+</div><!-- end #container -->
+</body>
+</html>
